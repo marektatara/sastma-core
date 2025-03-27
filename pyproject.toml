@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "sastma-core"
+version = "0.1.0"
+description = ""
+authors = ["Marek S. Tatara"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^2.2.2"
+matplotlib = "^3.10.0"
+torch = "^2.5.1"
+ipykernel = "^6.29.5"
+sam2 = "^1.1.0"
+opencv-python = "^4.11.0.86"
+scikit-image = "^0.25.2"
+tqdm = "^4.67.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
